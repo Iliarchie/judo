@@ -1,0 +1,89 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1880px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.wrapper {
+  overflow-x: hidden;
+}
+
+.list-reset {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 104%;
+  color: #fff;
+  padding: 32px 0 162px 0;
+}
+
+.sep-1 {
+  position: absolute;
+  z-index: -1;
+}
+
+.sep-1 {
+  left: -40%;
+  top: -80%;
+}
